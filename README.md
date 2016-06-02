@@ -7,3 +7,4 @@ Uses the Oculus PC SDK 0.8
 * Which libraries to add
 * Which include
 * Testing the compiled
+* Test 
