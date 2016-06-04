@@ -233,7 +233,7 @@ int main(int argc, char* argv[])
 				printf("Yaw: %f, Pitch: %f, Roll: %f\n", yaw, pitch, roll);
 				if (streaming)
 				{
-					SendIntClientSocket(clientSocket, 12); // Tells the Server how many bytes to expect
+					SendFloatClientSocket(clientSocket, 12); // Tells the Server how many bytes to expect
 					SendFloatClientSocket(clientSocket, yaw);
 					SendFloatClientSocket(clientSocket, pitch);
 					SendFloatClientSocket(clientSocket, roll);
